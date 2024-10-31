@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {    
+        "declaration": true,  
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "strict": false,
+        "skipLibCheck": false,
+        "target": "ESNext",
+    },
+    "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/@jest/types"
+    ],
+    "include": ["src/index.ts"],
+    "exclude": ["node_modules", "dist", "tests/**/*.ts"]
+  }
